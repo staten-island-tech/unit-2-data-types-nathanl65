@@ -36,8 +36,22 @@ values = ["w","e","s","t"]
 print(values[0])
 print(values[3])"""
 
-x = "this is a thing"
-y= x.split( )
+x = "6 4"
+y= x.split()
 z = y[1]
-print(y)
-print(z)
+
+""" numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
+
+for oddnumber in numbers:
+    if(oddnumber == "1", "3", "5", "7", "9"):
+        print("Odd")
+
+for evennumber in numbers:
+    if(evennumber == "2", "4", "6", "8", "0"):
+        print("Even") """
+
+number = z
+if number == "1," "3," "5," "7," "9":
+    print('odd')
+else:
+    print('even')
