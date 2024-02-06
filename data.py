@@ -36,9 +36,9 @@ values = ["w","e","s","t"]
 print(values[0])
 print(values[3])"""
 
-x = "6 4"
+""" x = "6 4"
 y= x.split()
-z = y[1]
+z = y[1] """
 
 """ numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
 
@@ -50,8 +50,37 @@ for evennumber in numbers:
     if(evennumber == "2", "4", "6", "8", "0"):
         print("Even") """
 
-number = z
-if number == "1," "3," "5," "7," "9":
-    print('odd')
+#Challenge 1
+
+number = input("Give me a number between 1 and 10 ")
+if number == "1":
+    print("odd")
+elif number == "3":
+    print("odd")
+elif number == "5":
+    print("odd")
+elif number == "7":
+    print("odd")
+elif number == "9":
+    print("odd")
 else:
-    print('even')
+    print("even")
+
+#Challenge 2
+
+service = input("How was the service? ")
+if service == "bad":
+    print("0% tip")
+elif service == "okay":
+    print("15% tip")
+elif service == "good":
+    print("20% tip")
+elif service == "great":
+    print("25% tip")
+else:
+    print("Please input 'bad', 'okay', 'good', or 'great'")
+
+#Challenge 3
+
+""" factors = input("Type a number between 1-10")
+ """

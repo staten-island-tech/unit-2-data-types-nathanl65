@@ -1,4 +1,4 @@
-animals = ["Zebra", "Camel", "Ape"]
+""" animals = ["Zebra", "Camel", "Ape"]
 #start count at 0, referance each element with []
 #print(animals[0])
 #for animal in animals:
@@ -6,7 +6,7 @@ animals = ["Zebra", "Camel", "Ape"]
 
 for animal in animals:
     if(animal == "Camel"):
-        print("We're in the desert")
+        print("We're in the desert") """
 
 #Strings operate like lists
 """ x = "Hello Freshman, you all smell"
@@ -15,3 +15,4 @@ for animal in animals:
 #print(y)
 words_list = x.split(" ")
 print(words_list) """
+
