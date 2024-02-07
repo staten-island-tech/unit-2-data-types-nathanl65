@@ -50,7 +50,7 @@ for evennumber in numbers:
     if(evennumber == "2", "4", "6", "8", "0"):
         print("Even") """
 
-#Challenge 1
+""" #Challenge 1
 
 number = input("Give me a number between 1 and 10 ")
 if number == "1":
@@ -78,9 +78,45 @@ elif service == "good":
 elif service == "great":
     print("25% tip")
 else:
-    print("Please input 'bad', 'okay', 'good', or 'great'")
+    print("Please input 'bad', 'okay', 'good', or 'great'") """
 
 #Challenge 3
 
-""" factors = input("Type a number between 1-10")
- """
+number = int(input("Enter a number up to 30:"))
+print(f"{number}")
+print("1")
+if number%2 == 0:
+    print("2")
+if number%3 == 0:
+    print("3")
+if number%4 == 0:
+    print("4")
+if number%5 == 0:
+    print("5")
+if number%6 == 0:
+    print("6")
+if number%7 == 0:
+    print("7")
+if number%8 == 0:
+    print("8")
+if number%9 == 0:
+    print("9")
+if number%10 == 0:
+    print("10")
+if number%11 == 0:
+    print("11")
+if number%12 == 0:
+    print("12")
+if number%13 == 0:
+    print("13")
+if number%14 == 0:
+    print("14")
+if number%15 == 0:
+    print("15")
+
+#Challenge 4
+number = int(input("Enter a number: "))
+number2 = int(input("Enter another number: "))
+
+
+print(f"The GCF of {number} and {number2} is ")
