@@ -53,7 +53,7 @@ for evennumber in numbers:
     if(evennumber == "2", "4", "6", "8", "0"):
         print("Even") """
 
-""" #Challenge 1
+''' #Challenge 1
 
 number = input("Give me a number between 1 and 10 ")
 if number == "1":
@@ -67,23 +67,27 @@ elif number == "7":
 elif number == "9":
     print("odd")
 else:
-    print("even")
+    print("even")'''
 
 #Challenge 2
-
+bill = float(input("Cost:"))
 service = input("How was the service? ")
 if service == "bad":
     print("0% tip")
+    bill = bill
 elif service == "okay":
     print("15% tip")
+    bill = bill *1.15
 elif service == "good":
     print("20% tip")
+    bill = bill *1.2
 elif service == "great":
     print("25% tip")
-else:
-    print("Please input 'bad', 'okay', 'good', or 'great'") """
+    bill = bill *1.25
 
-#Challenge 3
+print(bill)
+
+""" #Challenge 3
 
 number = int(input("Enter a number:"))
 print(f"{number}")
@@ -105,4 +109,4 @@ number = int(input("Enter a number: "))
 number2 = int(input("Enter another number: "))
 gcf = gcd(number,number2)
 
-print(f"The GCF of {number} and {number2} is {gcf}")
+print(f"The GCF of {number} and {number2} is {gcf}") """
