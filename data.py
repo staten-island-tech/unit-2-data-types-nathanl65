@@ -1,3 +1,6 @@
+
+import math
+from math import *
 #Data Types 
 #Nuymbers 1,2,3,
 """ def add(x,y):
@@ -82,41 +85,24 @@ else:
 
 #Challenge 3
 
-number = int(input("Enter a number up to 30:"))
+number = int(input("Enter a number:"))
 print(f"{number}")
 print("1")
-if number%2 == 0:
-    print("2")
-if number%3 == 0:
-    print("3")
-if number%4 == 0:
-    print("4")
-if number%5 == 0:
-    print("5")
-if number%6 == 0:
-    print("6")
-if number%7 == 0:
-    print("7")
-if number%8 == 0:
-    print("8")
-if number%9 == 0:
-    print("9")
-if number%10 == 0:
-    print("10")
-if number%11 == 0:
-    print("11")
-if number%12 == 0:
-    print("12")
-if number%13 == 0:
-    print("13")
-if number%14 == 0:
-    print("14")
-if number%15 == 0:
-    print("15")
+apple = number
+factors = []
+for i in range(2,int(apple)):
+    if apple%i == 0:
+        if i not in factors:
+            factors.append(i)
+        if apple/i not in factors:
+            factors.append(int(apple/i))
+for i in factors:
+    print(i)
+        
 
 #Challenge 4
 number = int(input("Enter a number: "))
 number2 = int(input("Enter another number: "))
+gcf = gcd(number,number2)
 
-
-print(f"The GCF of {number} and {number2} is ")
+print(f"The GCF of {number} and {number2} is {gcf}")
