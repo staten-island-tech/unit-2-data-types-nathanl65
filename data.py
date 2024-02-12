@@ -53,6 +53,14 @@ for evennumber in numbers:
     if(evennumber == "2", "4", "6", "8", "0"):
         print("Even") """
 
+x = input("Give me a sentence: ")
+words_list= x.split( )
+print(f"Wrod count:{(len(words_lists))}")
+print(y)
+print(z)
+
+
+
 ''' #Challenge 1
 
 number = input("Give me a number between 1 and 10 ")
@@ -69,7 +77,7 @@ elif number == "9":
 else:
     print("even")'''
 
-#Challenge 2
+""" #Challenge 2
 bill = float(input("Cost:"))
 service = input("How was the service? ")
 if service == "bad":
@@ -85,7 +93,7 @@ elif service == "great":
     print("25% tip")
     bill = bill *1.25
 
-print(bill)
+print(bill) """
 
 """ #Challenge 3
 
