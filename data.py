@@ -53,15 +53,16 @@ for evennumber in numbers:
     if(evennumber == "2", "4", "6", "8", "0"):
         print("Even") """
 
+
+
+
+
 x = input("Give me a sentence: ")
-words_list= x.split( )
-print(f"Wrod count:{(len(words_lists))}")
-print(y)
-print(z)
+words_list = x.split( )
+print(f"Word count:{(len(words_list))}")
+y = (len(words_list))
 
-
-
-''' #Challenge 1
+"""  #Challenge 1
 
 number = input("Give me a number between 1 and 10 ")
 if number == "1":
@@ -75,7 +76,8 @@ elif number == "7":
 elif number == "9":
     print("odd")
 else:
-    print("even")'''
+    print("even") """
+
 
 """ #Challenge 2
 bill = float(input("Cost:"))
@@ -92,27 +94,20 @@ elif service == "good":
 elif service == "great":
     print("25% tip")
     bill = bill *1.25
-
 print(bill) """
+
 
 """ #Challenge 3
 
 number = int(input("Enter a number:"))
-print(f"{number}")
-print("1")
-apple = number
-factors = []
-for i in range(2,int(apple)):
-    if apple%i == 0:
-        if i not in factors:
-            factors.append(i)
-        if apple/i not in factors:
-            factors.append(int(apple/i))
-for i in factors:
-    print(i)
-        
+def factor(x):
+    for i in range(1, x + 1):
+        if x % (i) == 0:
+            print(i)
+factor(number) """
 
-#Challenge 4
+
+""" #Challenge 4
 number = int(input("Enter a number: "))
 number2 = int(input("Enter another number: "))
 gcf = gcd(number,number2)
