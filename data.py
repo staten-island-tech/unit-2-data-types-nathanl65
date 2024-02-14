@@ -57,10 +57,11 @@ for evennumber in numbers:
 
 
 
-x = input("Give me a sentence: ")
+""" x = input("Give me a sentence: ")
 words_list = x.split( )
 print(f"Word count:{(len(words_list))}")
-y = (len(words_list))
+y = (len(words_list)) """
+
 
 """  #Challenge 1
 
@@ -80,6 +81,7 @@ else:
 
 
 """ #Challenge 2
+
 bill = float(input("Cost:"))
 service = input("How was the service? ")
 if service == "bad":
@@ -108,6 +110,7 @@ factor(number) """
 
 
 """ #Challenge 4
+
 number = int(input("Enter a number: "))
 number2 = int(input("Enter another number: "))
 gcf = gcd(number,number2)
