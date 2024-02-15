@@ -109,10 +109,10 @@ def factor(x):
 factor(number) """
 
 
-""" #Challenge 4
+#Challenge 4
 
 number = int(input("Enter a number: "))
 number2 = int(input("Enter another number: "))
 gcf = gcd(number,number2)
 
-print(f"The GCF of {number} and {number2} is {gcf}") """
+print(f"The GCF of {number} and {number2} is {gcf}")
