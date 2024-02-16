@@ -1,6 +1,3 @@
-
-import math
-from math import *
 #Data Types 
 #Nuymbers 1,2,3,
 """ def add(x,y):
@@ -110,9 +107,12 @@ factor(number) """
 
 
 #Challenge 4
-
-number = int(input("Enter a number: "))
-number2 = int(input("Enter another number: "))
-gcf = gcd(number,number2)
-
-print(f"The GCF of {number} and {number2} is {gcf}")
+def gcf():
+    number = int(input("Enter a number: "))
+    number2 = int(input("Enter another number: "))
+    while number2 != 0:
+        number3 = number % number2
+        gcf = number2
+        number2 = number3
+    print(f"The GCF is {gcf}")
+gcf()
