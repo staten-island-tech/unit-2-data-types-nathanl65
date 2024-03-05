@@ -107,12 +107,17 @@ factor(number) """
 
 
 #Challenge 4
-def gcf():
-    number = int(input("Enter a number: "))
-    number2 = int(input("Enter another number: "))
-    while number2 != 0:
-        number3 = number % number2
-        gcf = number2
-        number2 = number3
-    print(f"The GCF is {gcf}")
-gcf()
+def factors(x):
+    factors_list = []
+    for i in range(1, x + 1):
+        if x % i == 0:
+            factors_list.append(i)
+number1 = int(input("Enter a number: "))
+factors_number1 = factors(number1)
+number2 = int(input("Enter another number: "))
+factors_number2 = factors(number2)
+gcf = 1
+for num in factors_number1:
+    if num in factors_number2 and gcf < num:
+        gcf = num
+print("The GCF is:", gcf)
