@@ -112,6 +112,7 @@ def factors(x):
     for i in range(1, x + 1):
         if x % i == 0:
             factors_list.append(i)
+    return factors_list
 number1 = int(input("Enter a number: "))
 factors_number1 = factors(number1)
 number2 = int(input("Enter another number: "))
